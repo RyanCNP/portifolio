@@ -4,8 +4,8 @@ const contactLinks = [
   {
     icon: Mail,
     label: "E-mail",
-    value: "ryanjobs234@gmail.com",
-    href: "mailto:ryanjobs234@gmail.com",
+    value: "ryan.cnp234@gmail.com",
+    href: "mailto:ryan.cnp234@gmail.com",
   },
   {
     icon: Phone,
@@ -61,7 +61,7 @@ export function Contact() {
 
             {/* CTA Button */}
             <a
-              href="mailto:ryanjobs234@gmail.com"
+              href="mailto:ryan.cnp234@gmail.com"
               className="mt-6 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-all hover:brightness-110"
             >
               <Mail size={16} />
