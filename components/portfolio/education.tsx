@@ -2,18 +2,18 @@ import { GraduationCap } from "lucide-react"
 
 const educationItems = [
   {
-    degree: "Tecnologo em Desenvolvimento de Software Multiplataforma",
-    institution: "Fatec Votorantim",
-    period: "2024 - 2026 (previsto)",
-    status: "Cursando 5o semestre",
-    isCurrent: true,
-  },
-  {
     degree: "Ensino Medio + Tecnico em Automacao Industrial",
     institution: "Etec Armando Pannunzio",
     period: "2021 - 2023",
     status: "Concluido",
     isCurrent: false,
+  },
+  {
+    degree: "Tecnologo em Desenvolvimento de Software Multiplataforma",
+    institution: "Fatec Votorantim",
+    period: "2024 - 2026 (previsto)",
+    status: "Cursando 5o semestre",
+    isCurrent: true,
   },
 ]
 
