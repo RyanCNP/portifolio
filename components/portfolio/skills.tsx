@@ -38,7 +38,7 @@ const skills = [
   },
   {
     name: "Git & GitHub",
-    level: 70,
+    level: 75,
     category: "tools",
   },
 ]
