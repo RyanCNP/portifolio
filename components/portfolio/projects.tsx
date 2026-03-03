@@ -31,12 +31,12 @@ export function Projects() {
   return (
     <section id="projetos" className="px-6 py-24">
       <div className="mx-auto max-w-5xl">
-        <h2 className="mb-4 text-3xl font-bold md:text-4xl">
-          Meus Projetos
-        </h2>
-        <p className="mb-12 text-muted-foreground">
-          Alguns dos projetos que desenvolvi.
-        </p>
+        {/* Section Label */}
+        <div className="mb-12 flex items-center gap-4">
+          <span className="font-mono text-sm text-primary">02.</span>
+          <h2 className="text-2xl font-bold text-foreground">Meus Projetos</h2>
+          <div className="h-px flex-1 bg-border" />
+        </div>
 
         <div className="grid gap-6 md:grid-cols-2">
           {projects.map((project) => (
