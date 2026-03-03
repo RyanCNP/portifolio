@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Ryan Carlo | Desenvolvedor Backend',
-  description: 'Portfólio de Ryan Carlo Negretti Pereira - Desenvolvedor Backend focado em Node.js, Express.js e TypeScript.',
+  description: 'Portfólio de Ryan Carlo Negretti Pereira - Estudante de Desenvolvimento de Software Multiplataforma.',
   icons: {
     icon: [
       {
