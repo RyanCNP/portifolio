@@ -6,7 +6,7 @@ export function Footer() {
           {"Ryan Carlo Negretti Pereira"}
         </p>
         <p className="font-mono text-xs text-muted-foreground">
-          {"Feito com Next.js & Tailwind CSS"}
+          {"Feito com Next.js & Tailwind CSS & Vercel"}
         </p>
       </div>
     </footer>
