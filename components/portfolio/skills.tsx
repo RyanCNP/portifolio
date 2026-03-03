@@ -41,6 +41,11 @@ const skills = [
     level: 75,
     category: "tools",
   },
+  {
+    name: "Docker",
+    level: 50,
+    category: "tools"
+  }
 ]
 
 function SkillBar({ name, level }: { name: string; level: number }) {
