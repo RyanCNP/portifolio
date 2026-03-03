@@ -37,11 +37,7 @@ export function Hero() {
             </span>
           </h1>
           <p className="mt-4 max-w-md text-pretty text-lg leading-relaxed text-muted-foreground">
-            Desenvolvedor com foco em{" "}
-            <span className="text-foreground font-medium">backend</span>, utilizando{" "}
-            <span className="text-primary font-medium">Node.js</span>,{" "}
-            <span className="text-primary font-medium">Express.js</span> e{" "}
-            <span className="text-primary font-medium">TypeScript</span>.
+            Estudante de <span className="text-primary font-medium">Desenvolvimento de Software Multiplataforma</span>
           </p>
 
           {/* Social Links */}
