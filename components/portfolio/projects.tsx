@@ -42,7 +42,7 @@ export function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="flex flex-col rounded-lg border border-border bg-card p-6 transition-all hover:shadow-lg"
+              className="flex flex-col rounded-lg border border-border bg-card p-6 transition-all hover:border-primary/30 hover:shadow-lg"
             >
               <h3 className="mb-2 text-xl font-semibold">
                 {project.title}
