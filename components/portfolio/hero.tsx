@@ -32,7 +32,23 @@ export function Hero() {
           </p>
           <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Ryan Carlo
-            <span className="block text-muted-foreground">
+            <span 
+              className="block text-muted-foreground"
+              style={{
+                background: `linear-gradient(
+                  90deg,
+                  rgba(192, 192, 192, 0.6) 0%,
+                  rgba(255, 255, 255, 0.9) 30%,
+                  rgba(192, 192, 192, 0.6) 60%,
+                  rgba(192, 192, 192, 0.6) 100%
+                )`,
+                backgroundSize: '200% 100%',
+                backgroundClip: 'text',
+                WebkitBackgroundClip: 'text',
+                color: 'transparent',
+                animation: 'textshine 7s infinite ease-out',
+              }}
+            >
               Negretti Pereira
             </span>
           </h1>
@@ -79,6 +95,17 @@ export function Hero() {
       >
         <ChevronDown size={24} className="animate-bounce" />
       </a>
+
+      <style>{`
+        @keyframes textshine {
+          0% {
+            background-position: -200% 0%;
+          }
+          100% {
+            background-position: 200% 0%;
+          }
+        }
+      `}</style>
     </section>
   )
 }
