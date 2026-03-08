@@ -4,6 +4,7 @@ const educationItems = [
   {
     degree: "Ensino Medio + Tecnico em Automacao Industrial",
     institution: "Etec Armando Pannunzio",
+    href: "https://etecapan.cps.sp.gov.br/",
     period: "2021 - 2023",
     status: "Concluido",
     isCurrent: false,
@@ -11,6 +12,7 @@ const educationItems = [
   {
     degree: "Tecnologo em Desenvolvimento de Software Multiplataforma",
     institution: "Fatec Votorantim",
+    href: "https://fatecvotorantim.cps.sp.gov.br/",
     period: "2024 - 2026 (previsto)",
     status: "Cursando 5o semestre",
     isCurrent: true,
@@ -61,9 +63,14 @@ export function Education() {
                     <h3 className="text-base font-semibold text-foreground leading-snug">
                       {item.degree}
                     </h3>
-                    <p className="mt-2 text-sm font-medium text-primary">
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-block text-sm font-medium text-primary transition-colors hover:text-primary/80"
+                    >
                       {item.institution}
-                    </p>
+                    </a>
                     <div className="mt-3 flex items-center gap-3">
                       <span className="font-mono text-xs text-muted-foreground">
                         {item.period}
