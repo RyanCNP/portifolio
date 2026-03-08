@@ -60,14 +60,14 @@ export function Education() {
                         Atual
                       </span>
                     )}
-                    <h3 className="text-base font-semibold text-foreground leading-snug">
+                    <h3 className="truncate text-base font-semibold text-foreground leading-snug">
                       {item.degree}
                     </h3>
                     <a
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-2 inline-block text-sm font-medium text-primary transition-colors hover:text-primary/80"
+                      className="mt-2 inline-block truncate text-sm font-medium text-primary transition-colors hover:text-primary/80"
                     >
                       {item.institution}
                     </a>

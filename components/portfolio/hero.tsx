@@ -30,7 +30,7 @@ export function Hero() {
           <p className="mb-2 font-mono text-sm text-primary">
             {"Ola, eu sou"}
           </p>
-          <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
+          <h1 className="text-balance truncate text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Ryan Carlo
             <span 
               className="block text-muted-foreground"
