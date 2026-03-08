@@ -77,7 +77,7 @@ export function Hero() {
               <Linkedin size={18} />
             </a>
             <a
-              href="mailto:ryanjobs234@gmail.com"
+              href="mailto:ryan.cnp234@gmail.com"
               className="flex h-10 w-10 items-center justify-center rounded-lg border border-border text-muted-foreground transition-all hover:border-primary/50 hover:text-primary"
               aria-label="E-mail"
             >
