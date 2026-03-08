@@ -47,7 +47,7 @@ export function Contact() {
           <div className="h-px flex-1 bg-border" />
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 sm:grid-cols-2">
           {/* Left: CTA */}
           <div>
             <h3 className="text-xl font-semibold text-foreground text-balance">

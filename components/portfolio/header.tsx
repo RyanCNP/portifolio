@@ -39,7 +39,7 @@ export function Header() {
         </a>
 
         {/* Desktop Nav */}
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-8 sm:flex">
           {navLinks.map((link) => (
             <li key={link.href}>
               <a
@@ -55,7 +55,7 @@ export function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="text-muted-foreground transition-colors hover:text-foreground md:hidden"
+          className="text-muted-foreground transition-colors hover:text-foreground sm:hidden"
           aria-label={isMobileMenuOpen ? "Fechar menu" : "Abrir menu"}
         >
           {isMobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
@@ -64,7 +64,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="border-b border-border bg-background/95 backdrop-blur-lg md:hidden">
+        <div className="border-b border-border bg-background/95 backdrop-blur-lg sm:hidden">
           <ul className="flex flex-col gap-1 px-6 py-4">
             {navLinks.map((link) => (
               <li key={link.href}>

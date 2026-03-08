@@ -33,13 +33,13 @@ export function Education() {
         {/* Timeline */}
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-5 top-0 h-full w-px bg-border md:left-1/2 md:-translate-x-px" />
+          <div className="absolute left-5 top-0 h-full w-px bg-border sm:left-1/2 sm:-translate-x-px" />
 
           <div className="space-y-12">
             {educationItems.map((item, index) => (
               <div
                 key={item.degree}
-                className={`relative flex flex-col md:flex-row ${
+                className={`relative flex flex-col sm:flex-row ${
                   index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
               >
@@ -50,8 +50,8 @@ export function Education() {
 
                 {/* Card */}
                 <div
-                  className={`ml-14 w-full md:ml-0 md:w-[calc(50%-2rem)] ${
-                    index % 2 === 0 ? "md:pr-8" : "md:pl-8"
+                  className={`ml-14 w-full sm:ml-0 sm:w-[calc(50%-2rem)] ${
+                    index % 2 === 0 ? "sm:pr-8" : "sm:pl-8"
                   }`}
                 >
                   <div className="rounded-lg border border-border bg-card p-6 transition-all hover:border-primary/30">
