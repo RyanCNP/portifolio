@@ -12,7 +12,7 @@ export function Hero() {
       <div className="relative mx-auto flex max-w-5xl flex-col items-center gap-10 md:flex-row md:gap-16">
         {/* Photo */}
         <div className="relative shrink-0">
-          <div className="relative h-48 w-48 overflow-hidden rounded-full border-2 border-border md:h-56 md:w-56">
+          <div className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-border sm:h-40 sm:w-40 md:h-48 md:w-48 lg:h-56 lg:w-56">
             <Image
               src="/images/foto.png"
               alt="Foto de Ryan Carlo Negretti Pereira"

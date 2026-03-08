@@ -61,7 +61,7 @@ export function About() {
           </div>
 
           {/* Qualities Grid */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4 place-items-center sm:grid-cols-2">
             {qualities.map((quality) => (
               <div
                 key={quality.title}
