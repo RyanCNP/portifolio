@@ -4,7 +4,7 @@ const qualities = [
   {
     icon: Users,
     title: "Trabalho em Equipe",
-    description: "Boa comunicacao e colaboracao em projetos.",
+    description: "Boa comunicação e colaboração em projetos.",
   },
   {
     icon: Zap,
@@ -13,12 +13,12 @@ const qualities = [
   },
   {
     icon: Target,
-    title: "Organizacao",
+    title: "Organização",
     description: "Comprometimento e foco em resultados.",
   },
   {
     icon: User,
-    title: "Aprendizado Rapido",
+    title: "Aprendizado Rápido",
     description: "Facilidade para absorver novas tecnologias.",
   },
 ]
@@ -38,25 +38,25 @@ export function About() {
           {/* Text */}
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Sou um desenvolvedor em inicio de carreira, com foco em{" "}
+              Sou um desenvolvedor em início de carreira, com foco em{" "}
               <span className="text-foreground font-medium">desenvolvimento backend</span>,
               utilizando tecnologias como Node.js, Express.js e TypeScript para
               construir APIs REST robustas e eficientes.
             </p>
             <p>
-              Atualmente estou cursando o 5o semestre de{" "}
+              Atualmente estou cursando o 5º semestre de{" "}
               <span className="text-foreground font-medium">
                 Desenvolvimento de Software Multiplataforma
               </span>{" "}
-              na Fatec Votorantim, com previsao de conclusao em 2026. Tambem possuo
-              formacao tecnica em Automacao Industrial pela Etec Armando Pannunzio.
+              na Fatec Votorantim, com previsão de conclusão em 2026. Também possuo
+              formação técnica em Automação Industrial pela Etec Armando Pannunzio.
             </p>
             <p>
-              Estou aberto a atuar em funcoes{" "}
+              Estou aberto a atuar em funções{" "}
               <span className="text-primary font-medium">fullstack</span> ou{" "}
               <span className="text-primary font-medium">frontend</span>, conforme a
               necessidade do time, e busco minha primeira oportunidade profissional
-              na area de tecnologia.
+              na área de tecnologia.
             </p>
           </div>
 
