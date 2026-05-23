@@ -15,7 +15,7 @@ const contactLinks = [
   },
   {
     icon: MapPin,
-    label: "Localizacao",
+    label: "Localização",
     value: "Votorantim - SP",
     href: null,
   },
@@ -54,7 +54,7 @@ export function Contact() {
               Vamos conversar?
             </h3>
             <p className="mt-3 text-muted-foreground leading-relaxed text-pretty">
-              Estou disponivel para inicio imediato e busco minha primeira
+              Estou disponivel para início imediato e busco minha primeira
               oportunidade para ingressar no mercado de trabalho. Fique a vontade
               para entrar em contato.
             </p>
