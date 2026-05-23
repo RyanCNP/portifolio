@@ -6,14 +6,14 @@ import Link from "next/link"
 const projects = [
   {
     title: "SiTec",
-    description: "O Sitec é uma plataforma que visa trazer mais visibilidade para as empresas com certificações de meio-ambiente.",
-    technologies: ["Angular", "TypeScript", "CSS",],
+    description: "O SiTec é uma plataforma que visa trazer mais visibilidade para as empresas com certificações de meio ambiente.",
+    technologies: ["Angular", "TypeScript", "CSS"],
     github: "https://github.com/GLFspedine/Sitecproject",
     demo: "",
   },
   {
     title: "SaneaSP",
-    description: "O SaneaSP é uma plataforma que visa trazer mais visibilidade para os problemas de saneamento nas cidades do Estado de São Paulo",
+    description: "Desenvolvido para dar maior visibilidade aos problemas de saneamento básico nas cidades do Estado de São Paulo.",
     technologies: ["Express.js", "Node.js", "PostgreSQL", "Angular", "TypeScript", "CSS"],
     github: "https://github.com/MathGueff/SaneaSP",
     demo: "",
